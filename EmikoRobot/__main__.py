@@ -82,18 +82,18 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-╔ /start: Starts me! You've probably already used this.
+╔ /start: ||Starts me! You've probably already used this||.
 ╠ /help: Click this, I'll let you know about myself!
 ╠ /donate: You can support my creater using this command.
 ╠ /settings : 
 ╚══║in PM: will send you your settings for all supported modules.
    ╚ in a Group: will redirect you to pm, with all that chat's settings.
-   Powered by : [ALAN WALKER](https://telegra.ph/file/52b1b195f0d7df5ff79b2.jpg)
+   Powered by : [ALAN WALKER](https://telegra.ph/file/d60973a409c63b036be9c.jpg)
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="𝗔𝗕𝗢𝗨𝗧 𝗟𝗨𝗡𝗔", callback_data="emiko_"),
+        InlineKeyboardButton(text="𝗧𝗛𝗘 𝗦𝗛𝗜𝗘𝗟𝗗", url="https://t.me/lunasupportz"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -101,7 +101,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ 𝗔𝗗𝗗 𝗟𝗨𝗡𝗔 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Missharelyluna_bot?startgroup=new"
+            text="➗ 𝗔𝗗𝗗 𝗦𝗛𝗜𝗘𝗟𝗗 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/TEAM_SHEILD_BOT?startgroup=new"
         ),
     ],
 ]
@@ -110,7 +110,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/52b1b195f0d7df5ff79b2.jpg"
+EMI_IMG = "https://telegra.ph/file/d60973a409c63b036be9c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting [ALAN WALKER](https://t.me/alpha_romeo_06) \
@@ -393,7 +393,7 @@ def emiko_about_callback(update, context):
                             text="Support", callback_data="emiko_support"
                         ),
                         InlineKeyboardButton(
-                            text="Credits", callback_data="emiko_credit"
+                            text="LUNA", callback_data="emiko_credit"
                         ),
                     ],
                     [
