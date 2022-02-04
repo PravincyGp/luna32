@@ -93,7 +93,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="𝗧𝗛𝗘 𝗦𝗛𝗜𝗘𝗟𝗗", url="https://t.me/lunasupportz"),
+        InlineKeyboardButton(text="About THE ROSI", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
