@@ -88,7 +88,7 @@ PM_START_TEXT = """
 ╠ /settings : 
 ╚══║in PM: will send you your settings for all supported modules.
    ╚ in a Group: will redirect you to pm, with all that chat's settings.
-   Powered by : [PRAVINCY](https://t.me/RosiEventswinnerList)
+   Powered by : [ᵗᵐSHADOW](https://t.me/Tm_Shadow_Federation)
 """
 
 buttons = [
@@ -101,7 +101,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ 𝗔𝗗𝗗 𝐑𝗢𝗦𝗜 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Rosiultra_bot?startgroup=new"
+            text="➗ 𝗔𝗗𝗗 ♕︎𝐑𝗢𝗦𝗜 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Rosiultra_bot?startgroup=new"
         ),
     ],
 ]
@@ -369,7 +369,7 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm *ROSI*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *♕︎ROSI*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -456,7 +456,7 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏𝐑𝗢𝗦𝗜 support chats*"
+            text="*๏♕︎𝐑𝗢𝗦𝗜 support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on  𝐑𝗢𝗦𝗜.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
