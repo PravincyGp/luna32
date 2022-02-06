@@ -82,12 +82,12 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-╔ /start: ||Starts me! You've probably already used this||.
-╠ /help: Click this, I'll let you know about myself!
-╠ /donate: You can support my creater using this command.
-╠ /settings : 
-╚══║in PM: will send you your settings for all supported modules.
-   ╚ in a Group: will redirect you to pm, with all that chat's settings.
+✰ /start: ||Starts me! You've probably already used this||.
+✰ /help: Click this, I'll let you know about myself!
+✰ /donate: You can support my creater using this command.
+✰ /settings : 
+✰✰᯾in PM: will send you your settings for all supported modules.
+   ✰✰᯾ in a Group: will redirect you to pm, with all that chat's settings.
    Powered by : [™️ 𝗦𝗛𝗔𝗗🔲𝗪༄](https://t.me/Tm_Shadow_Federation)
 """
 
@@ -101,7 +101,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ 𝗔𝗗𝗗 ♕︎𝐑𝗢𝗦𝗜 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Rosiultra_bot?startgroup=new"
+            text="➗ 𝗔𝗗𝗗 ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄ 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Rosiultra_bot?startgroup=new"
         ),
     ],
 ]
@@ -369,14 +369,14 @@ def emiko_about_callback(update, context):
     query = update.callback_query
     if query.data == "emiko_":
         query.message.edit_text(
-            text="๏ I'm *♕︎ROSI*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *♕︎™️ 𝗦𝗛𝗔𝗗🔲𝗪༄*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_ 𝐑𝗢𝗦𝗜 licensed under the GNU General Public License v3.0_"
+            "\n\n_ ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄ licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for TEAM SHADOW.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -429,7 +429,7 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, ROSI now ready to manage your group."
+            "\nCongragulations, ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄ now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -476,8 +476,8 @@ def emiko_about_callback(update, context):
 
     elif query.data == "emiko_credit":
         query.message.edit_text(
-            text=f"๏ Credis for 𝐑𝗢𝗦𝗜\n"
-            "\nJOIN AND SUPPORT OUR TEAM 𝐑𝗢𝗦𝗜",
+            text=f"๏ Credis for ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄\n"
+            "\nJOIN AND SUPPORT OUR TEAM ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 
