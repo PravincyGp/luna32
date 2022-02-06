@@ -93,15 +93,15 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About THE ROSI", callback_data="emiko_"),
+        InlineKeyboardButton(text="𝘼𝙗𝙤𝙪𝙩 𝙏𝙝𝙚 ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄", callback_data="emiko_"),
     ],
     [
-        InlineKeyboardButton(text="Get Help", callback_data="help_back"),
-        InlineKeyboardButton(text="Try inline!​​", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(text="𝙂𝙚𝙩 𝙃𝙚𝙡𝙥", callback_data="help_back"),
+        InlineKeyboardButton(text="𝙏𝙧𝙮 𝙞𝙣𝙡𝙞𝙣𝙚!​​", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
-            text="➗ 𝗔𝗗𝗗 ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄ 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➗", url="https://t.me/Rosiultra_bot?startgroup=new"
+            text="👑 𝗔𝗗𝗗 ™️ 𝗦𝗛𝗔𝗗🔲𝗪༄ 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 👑", url="https://t.me/Rosiultra_bot?startgroup=new"
         ),
     ],
 ]
@@ -384,13 +384,13 @@ def emiko_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Admins", callback_data="emiko_admin"
+                            text="𝘼𝙙𝙢𝙞𝙣𝙨", callback_data="emiko_admin"
                         ),
-                        InlineKeyboardButton(text="Notes", callback_data="emiko_notes"),
+                        InlineKeyboardButton(text="𝙉𝙤𝙩𝙚𝙨", callback_data="emiko_notes"),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support", callback_data="emiko_support"
+                            text="𝙎𝙪𝙥𝙥𝙤𝙧𝙩", callback_data="emiko_support"
                         ),
                         InlineKeyboardButton(
                             text="™️ 𝗦𝗛𝗔𝗗🔲𝗪༄", callback_data="emiko_credit"
@@ -398,13 +398,13 @@ def emiko_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Source Code",
+                            text="𝙎𝙤𝙪𝙧𝙘𝙚 𝘾𝙤𝙙𝙚",
                             url="https://t.me/Rosisupport",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Go Back", callback_data="emiko_back"
+                            text="𝙂𝙤 𝘽𝙖𝙘𝙠", callback_data="emiko_back"
                         ),
                     ],
                 ]
