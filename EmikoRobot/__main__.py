@@ -456,7 +456,7 @@ def emiko_about_callback(update, context):
         )
     elif query.data == "emiko_support":
         query.message.edit_text(
-            text="*๏♕︎𝐑𝗢𝗦𝗜 support chats*"
+            text="*๏♕︎™️ 𝗦𝗛𝗔𝗗🔲𝗪༄  support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on  𝐑𝗢𝗦𝗜.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -792,7 +792,7 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 1787018972:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
+                "I'm free for everyone 🍹 If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
