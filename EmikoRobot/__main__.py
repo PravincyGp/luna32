@@ -393,7 +393,7 @@ def emiko_about_callback(update, context):
                             text="Support", callback_data="emiko_support"
                         ),
                         InlineKeyboardButton(
-                            text="ROSI", callback_data="emiko_credit"
+                            text="™️ 𝗦𝗛𝗔𝗗🔲𝗪༄", callback_data="emiko_credit"
                         ),
                     ],
                     [
