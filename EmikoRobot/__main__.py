@@ -508,7 +508,7 @@ def emiko_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="OFFICIAL TALK", url="https://t.me/luna_officials"
+                            text="OFFICIAL TALK", url="https://t.me/RosiOfficial"
                         ),
                         InlineKeyboardButton(
                             text="OFF TALKS", url="https://t.me/Rosisupport"
@@ -838,7 +838,7 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.sendMessage(
-                f"@{SUPPORT_CHAT}", "👋 Hi, i'm alive.", parse_mode=ParseMode.MARKDOWN
+                f"@{SUPPORT_CHAT}", "👋 Hi, i'm 𝙍𝙊𝙎𝙄.", parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
             LOGGER.warning(
